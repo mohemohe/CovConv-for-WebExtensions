@@ -1,0 +1,27 @@
+{
+  "extends": [
+    "tslint:latest",
+    "tslint:recommended"
+  ],
+  "rules": {
+    "member-ordering": [
+      false
+    ],
+    "ordered-imports": [
+      false
+    ],
+    "indent": [
+      true,
+      "tabs"
+    ],
+    "no-any": false,
+    "no-object-literal-type-assertion": false,
+    "no-duplicate-imports": false,
+    "promise-function-async": true,
+    "prefer-conditional-expression": false,
+    "await-promise": true,
+    "object-literal-sort-keys": false,
+    "max-line-length": [false],
+    "variable-name": [true, "ban-keywords", "check-format", "allow-leading-underscore"]
+  }
+}
